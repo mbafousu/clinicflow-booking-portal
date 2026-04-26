@@ -19,7 +19,7 @@ export default function Home() {
           <p className="eyebrow">Patient Booking Portal</p>
 
           <h1>
-            Modern appointment scheduling for growing clinics.
+           Private appointment booking for modern clinics.
           </h1>
 
           <p className="hero-description">
@@ -56,40 +56,40 @@ export default function Home() {
         </div>
 
         <div className="hero-right">
-          <div className="dashboard-preview">
-            <div className="preview-header">
-              <div>
-                <p className="preview-label">Today</p>
-                <h3>Appointment Requests</h3>
-              </div>
-              <span className="status-pill">Live</span>
-            </div>
+  <div className="booking-preview">
+    <div className="preview-header">
+      <div>
+        <p className="preview-label">Booking Preview</p>
+        <h3>Choose an available time</h3>
+      </div>
+      <span className="status-pill">Secure</span>
+    </div>
 
-            <div className="appointment-preview-card">
-              <div className="avatar">SM</div>
-              <div>
-                <h4>Sarah M.</h4>
-                <p>General consultation • 10:30 AM</p>
-              </div>
-            </div>
+    <div className="date-card">
+      <p className="date-label">Next Available</p>
+      <h4>Monday, April 29</h4>
+      <p>Select a preferred time below.</p>
+    </div>
 
-            <div className="appointment-preview-card">
-              <div className="avatar">JD</div>
-              <div>
-                <h4>James D.</h4>
-                <p>Follow-up visit • 1:00 PM</p>
-              </div>
-            </div>
+    <div className="slot-grid">
+      <button>9:00 AM</button>
+      <button>10:30 AM</button>
+      <button>1:00 PM</button>
+      <button>3:30 PM</button>
+    </div>
 
-            <div className="appointment-preview-card">
-              <div className="avatar">AK</div>
-              <div>
-                <h4>Amina K.</h4>
-                <p>New patient intake • 3:15 PM</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="privacy-card">
+      <div className="privacy-icon">🔒</div>
+      <div>
+        <h4>Private by design</h4>
+        <p>
+          Patients only submit their own request. Other patient appointments are
+          never shown in the public portal.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
       </section>
 
       <section id="features" className="features-section">
