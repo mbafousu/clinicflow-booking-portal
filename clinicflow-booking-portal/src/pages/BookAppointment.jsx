@@ -13,7 +13,6 @@ export default function BookAppointment() {
     appointmentDate: "",
     appointmentTime: "",
     reason: "",
-    status: "scheduled",
   });
 
   const [loading, setLoading] = useState(false);
