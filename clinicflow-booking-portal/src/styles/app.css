@@ -367,3 +367,37 @@ body {
   line-height: 1.6;
   font-size: 0.92rem;
 }
+.confirmation-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fbff;
+}
+
+.confirmation-card {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.12);
+  max-width: 520px;
+  width: 100%;
+}
+
+.confirmation-card h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.confirmation-card p {
+  color: #64748b;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.back-home-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  font-size: 0.95rem;
+}
