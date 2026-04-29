@@ -1,16 +1,65 @@
-# React + Vite
+# ClinicFlow Booking Portal
+A modern, patient-friendly appointment booking portal built with the MERN stack.
+This application allows patients to request appointments online while maintaining strict data privacy and separation from internal clinic systems.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📸 Screenshots
 
-Currently, two official plugins are available:
+### Landing Page
+![Landing Page](./screenshots/landing.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Booking Form
+![Booking Form](./screenshots/booking.png)
 
-## React Compiler
+### Confirmation Page
+![Confirmation](./screenshots/confirmation.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Patient appointment request form
+- Privacy-first design (no exposure of other patient data)
+- Fast and responsive UI
+-  Modern healthcare SaaS-style interface
+- Connected to backend API
+- Booking request flow for clinic staff review
 
-## Expanding the ESLint configuration
+## System Design
+This project follows a real-world architecture:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Patient Portal 
+- Public-facing booking interface
+- No authentication required
+- Submits appointment requests
+
+### ClinicFlow Backend
+- Handles booking requests
+- Stores data securely
+- Converts requests into real appointments
+
+## Tech Stack
+
+### Frontend
+- React (Vite)
+- JavaScript
+- CSS
+
+### Backend
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+
+## Key Decisions
+- Separated Booking Requests from Appointments for better scalability
+- Backend controls status (not frontend) for data integrity
+- Designed UI with a privacy-first approach
+
+## Future Improvements
+- Admin dashboard to manage booking requests
+- Convert booking requests into appointments
+- Email notifications
+- Authentication for patient tracking
+- Calendar integration
+
+## 👨‍💻 Author
+
+Carol Mbafou
+GitHub: https://github.com/mbafousu
